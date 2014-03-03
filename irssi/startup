@@ -1,4 +1,12 @@
+# load and start nicklist
 /RUN nicklist.pl
 /NICKLIST FIFO
 
+# load sasl support
 /RUN cap_sasl.pl
+
+# load highlight support
+/RUN highlightwin.pl
+
+# goto first command window
+/WINDOW GOTO 1

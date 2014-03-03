@@ -190,3 +190,22 @@ keyboard = (
   { key = "meta-down"; id = "command"; data = "nicklist scroll +10"; },
   { key = "meta-up"; id = "command"; data = "nicklist scroll -10"; }
 );
+hilights = ( { text = "andrewferk"; nick = "no"; word = "yes"; } );
+windows = {
+  1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
+  2 = {
+    items = (
+      {
+        type = "CHANNEL";
+        chat_type = "IRC";
+        name = "#zftalk";
+        tag = "freenode";
+      }
+    );
+  };
+  3 = { name = "hilight"; sticky = "yes"; };
+};
+mainwindows = {
+  1 = { first_line = "6"; lines = "61"; };
+  3 = { first_line = "1"; lines = "5"; };
+};
