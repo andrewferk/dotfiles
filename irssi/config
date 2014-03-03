@@ -184,7 +184,7 @@ settings = {
     nick = "andrewferk";
   };
   "fe-text" = { actlist_sort = "refnum"; };
-  "perl/core/scripts" = { nicklist_width = "20"; nicklist_height = "40"; };
+  "perl/core/scripts" = { nicklist_width = "20"; nicklist_height = "50"; };
 };
 keyboard = (
   { key = "meta-down"; id = "command"; data = "nicklist scroll +10"; },

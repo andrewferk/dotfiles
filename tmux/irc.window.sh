@@ -1,6 +1,6 @@
 new_window "irc"
 
-split_h 20
+split_h 15
 
 select_pane 2
 run_cmd "cat ~/.irssi/nicklistfifo"
