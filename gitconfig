@@ -1,0 +1,11 @@
+[push]
+  default = simple
+[color]
+  ui = auto
+[alias]
+  co = checkout
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+[include]
+  path = .gitconfig.local
