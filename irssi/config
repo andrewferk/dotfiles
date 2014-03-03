@@ -6,14 +6,24 @@ servers = (
     use_ssl = "yes";
     ssl_verify = "yes";
     autoconnect = "no";
+  },
+  {
+    address = "irc.us.ircnet.net";
+    chatnet = "ircnet";
+    port = "6667";
+    autoconnect = "no";
   }
 );
 
-chatnets = { freenode = { type = "IRC"; }; };
+chatnets = {
+  freenode = { type = "IRC"; };
+  ircnet = { type = "IRC"; };
+};
 
 channels = (
   { name = "#zftalk"; chatnet = "freenode"; autojoin = "no"; },
-  { name = "#zftalk.dev"; chatnet = "freenode"; autojoin = "no"; }
+  { name = "#zftalk.dev"; chatnet = "freenode"; autojoin = "no"; },
+  { name = "#irssi"; chatnet = "ircnet"; autojoin = "no"; }
 );
 
 aliases = {
