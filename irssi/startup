@@ -1,0 +1,4 @@
+/RUN nicklist.pl
+/NICKLIST FIFO
+
+/RUN cap_sasl.pl
