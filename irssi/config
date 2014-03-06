@@ -15,10 +15,7 @@ servers = (
   }
 );
 
-chatnets = {
-  freenode = { type = "IRC"; };
-  ircnet = { type = "IRC"; };
-};
+chatnets = { freenode = { type = "IRC"; }; ircnet = { type = "IRC"; }; };
 
 channels = (
   { name = "#zftalk"; chatnet = "freenode"; autojoin = "no"; },
@@ -219,3 +216,4 @@ mainwindows = {
   1 = { first_line = "6"; lines = "56"; };
   3 = { first_line = "1"; lines = "10"; };
 };
+ignores = ( { level = "JOINS PARTS QUITS MODES"; } );

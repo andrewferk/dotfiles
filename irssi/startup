@@ -6,7 +6,7 @@
 /RUN cap_sasl.pl
 
 # load highlight support
-/RUN highlightwin.pl
+/RUN hilightwin.pl
 
 # goto first command window
 /WINDOW GOTO 1
